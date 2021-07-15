@@ -1,0 +1,419 @@
+body{font-size:13px;/*max-width:1280px;*/margin:0 auto}
+body,h2 a,.fil-ariane span{color:#282828}
+a,a:hover,a:focus{color:#de3b6f}
+.icone{display:block;background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/icone-sprite.png);background-repeat:no-repeat;margin-right:0.2em;float:left}
+h2,.h2{margin:0 0 1.2em 0;/*font-size:1.5em*/font-size:1.8em}
+p{line-height:1.6em}
+.row{margin-bottom:1em}
+
+/*************
+POLICES
+*************/
+#header .tel,.home h1{font-weight:700}
+
+/*************
+HEADER
+*************/
+header{background:#fff}
+#header{padding:1.5em 1em 1em;font-size:0.9em}
+#header .row{margin-bottom:0}
+#header,#header a{color:#5d5d5d}
+#baseline{font-weight:700;/*font-size:1.4em*/font-size:1.5em}
+#header .infos_site > div{margin:0 0 0.5em}
+#header .icone{height:24px;width:24px}
+#header .icone.telephone{background-position:0 -20px;margin-bottom: 10px;margin-right: 0;margin-top: 5px;}
+#header .icone.mail{background-position:0 2px;margin-top:-3px}
+#header .tel{font-size:1.3em;/*font-family:Helvetica Rounded;*/ }
+
+/*************
+NAV
+*************/
+header .navbar{border-bottom:1px solid #99c937;border-top:1px solid #99c937;margin-bottom:0}
+.navbar-nav{text-transform:uppercase;vertical-align:center}
+#mainmenu a{color:#282828;text-align:center}
+#mainmenu a:hover,#mainmenu a:focus,#mainmenu .active a,.devis #mainmenu .item133 a{color:#9ac732;background:none}
+#mainmenu a:before{display:block;float:left;content:' ';width:14px;height:14px;margin:0.2em 0.3em 0 0}
+#mainmenu a:hover:before,#mainmenu .active a:before,#mainmenu a:focus:before,.devis #mainmenu .item133 a:before{background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/icone-sprite.png) no-repeat -4px -48px}
+
+.navbar-toggle{border-color:#99c937;background-color:#fff; margin-right:0}
+.navbar-toggle .icon-bar {background-color:#99c937}
+
+/*************
+CONTENU
+*************/
+.main{background:#fff no-repeat top center}
+.main .bloc-content .container{/*background:#fff;*/padding-top:2em}
+article{position:relative}
+
+/*************
+H1
+*************/
+.entete{background:#252525  no-repeat center center}
+h1{color:#fff;text-transform:uppercase;font-size:1.75em;font-weight:700}
+h1:after{width:20px;height:20px;display:inline-block;content:' ';background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/icone-sprite.png) no-repeat 0 -66px;vertical-align:center;margin-left:0.4em}
+.home h1:after{display:none}
+
+.qsn .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-qsn.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.devis .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-devis.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.devis.offres .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-devis-offres.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.temoignages .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-temoignages.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.delegation .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-delegation.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.guides .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-guides.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.erreur-404 .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-404.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+.contact .entete{background-image:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/entetes/fond-h1-404.jpg); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+
+/*************
+FOOTER
+*************/
+footer{background:#252525;color:#fff;padding:3em 0 5em;/*font-size:0.85em;*/font-size:0.9em;line-height:1.6em}
+footer .menu, footer .infos_site{text-align:right}
+footer .menu{list-style:none}
+footer a, footer a:hover{color:#fff}
+footer .tel{font-size:1.5em}
+
+.groupe-assu{background:#f7f7f7;color:#000;-moz-box-shadow:5px 5px 5px 0px #000000;
+-webkit-box-shadow:5px 5px 5px 0px #000000;
+-o-box-shadow:5px 5px 5px 0px #000000;
+box-shadow:5px 5px 5px 0px #000000;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5)}
+.groupe-assu p{line-height:3em}
+
+/*************
+HOMEPAGE
+*************/
+.home h1{color:#252525;text-transform:none;text-align:center;line-height:1.5em}
+.home h1 strong{color:#de3b6f}
+h1 .big{font-size:1.5em}
+.devis2min{background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/devis-gratuit.png) no-repeat 0 0;width:91px;height:91px;text-indent:-3000em}
+
+#hp-content>div>div{background:#fff;border-top:1px solid #99c937}
+#hp-content h2{text-align:center;text-transform:uppercase;margin-top:1.2em}
+#hp-content p{font-size:1.2em; margin:1em}
+
+/*************
+QSN
+*************/
+.cartouche{padding:1em;margin:2em 0 0}
+
+.cartouche,.texte-partenaire,.meilleure-offre .table {background:#fff;box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);-moz-box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.4);-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4)}
+
+#nos-partenaires{background:#ececec}
+#nos-partenaires .container{background:none}
+.texte-partenaire{padding:1.5em 0;margin:0.5em 0}
+.axa strong{color:#003895}
+.april strong{color:#f5a302}
+.bpsis strong{color:#833143}
+.metlife strong{color:#0066b6}
+.bnp strong{color:#11885e}
+.mutlog strong{color:#298665}
+
+/*************
+TEMOIGNAGES
+*************/
+table{border-collapse:separate}
+td,th{background:#ededed;border:1px solid #fff;font-weight:700;text-align:center;color:#5d5d5d;vertical-align:middle;position:relative}
+.temoignages td,.temoignages th{min-width:90px;padding:0.5em 0.2em}
+.grisfonce{background:#5d5d5d;color:#fff}
+.col1{text-align:left;min-width:100px}
+.vert{background:#9ac732;color:#fff}
+.economie{width:91px;height:91px;display:block;position:absolute;bottom:10%;left:-30%;text-indent:-3000em; background: url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/economie-sprite.png) no-repeat top left}
+.eco10836{ background-position: 0 0} 
+.eco6225{ background-position: 0 -96px} 
+.eco8179{ background-position: 0 -192px} 
+.row .col-md-4 table{margin-top:40px}
+
+.temoignages .item-page h2{margin:0 0 0.2em}
+.temoignages .item-page .row{margin-bottom:2.5em}
+
+/*************
+DELEGATION
+*************/
+.citation{font-size:1.7em;font-weight:700;font-style:italic;text-align:center}
+.citation>span{background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/guillemets-sprite.png) no-repeat;display:block;width:43px;height:36px;	text-indent:-3000em;margin:1em 0}
+.citation .ouvert{background-position:-5px -5px}
+.citation .ferme{background-position:-58px -5px;float:right}
+
+/*************
+GUIDES
+*************/
+.guides .item h2{margin:0 0 0.5em;/*font-size:1.3em*/font-size:1.4em}
+.guides .item h2 a{text-decoration:none}
+.guides .item h2 a:hover{text-decoration:underline}
+.items-row{margin:0 0 2em}
+.item>div>div{padding:0 0.5em}
+.item-page a,.bloc-content a{text-decoration:underline}
+body a.btn{text-decoration:none}
+
+/*************
+BOUTONS
+*************/
+.btn-primary,.btn-primary:focus{background: #e93e76;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5M2U3NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNDJjNTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #e93e76 0%, #b42c50 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e93e76), color-stop(100%,#b42c50));
+background: -webkit-linear-gradient(top,  #e93e76 0%,#b42c50 100%);
+background: -o-linear-gradient(top,  #e93e76 0%,#b42c50 100%);
+background: -ms-linear-gradient(top,  #e93e76 0%,#b42c50 100%);
+background: linear-gradient(to bottom,  #e93e76 0%,#b42c50 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e93e76', endColorstr='#b42c50',GradientType=0 );
+}
+.btn-primary,.btn-primary:hover,.btn-primary:focus{border:1px solid #de3b6f;font-weight:700}
+.btn-default{background: #ffffff;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNGQzZDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #d4d3d3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d4d3d3));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#d4d3d3 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#d4d3d3 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#d4d3d3 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#d4d3d3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d3d3',GradientType=0 );
+}
+.btn-lg{font-size:1.5em}
+.btn span {font-size: 1.3em;}
+
+/* pages erreur */
+.btn-info{background:#4c4c4c;border-color:#4c4c4c;font-weight:700}
+.btn-info:hover,.btn-info:focus{background:#3b3b3b;border-color:#4c4c4c}
+.btn-info .icone{width:35px;height:32px;margin:-6px 12px -6px -12px;background-color:#3b3b3b}
+.btn-info:hover .icone{background-color:#2b2b2b}
+.btn-info .icone.home{background-position:7px -86px}
+.btn-info .icone.sitemap{background-position:7px -122px}
+
+/*************
+pages erreur
+*************/
+.bloc-content.fond-gris,.bloc-content.fond-gris .container{background:#ececec}
+
+/*************
+CONTACT
+*************/
+.contact-texte .row{border:1px solid #a0a0a0;margin:0 0 1em;padding:1em 0}
+.contact-texte h3{text-transform:uppercase;font-size:1.2em;font-weight:700;margin-top:0}
+.contact-texte .icone{background: url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/contact-sprite.png) no-repeat top left;width:60px;height:80px;text-indent:-3000em;margin:0 auto;float:none}
+.contact-texte .icone.mail{background-position:0 12px} 
+.contact-texte .icone.telephone{background-position:12px -143px} 
+.contact-texte .icone.courrier{background-position:0 -65px} 
+
+/*************
+fil d'ariane
+*************/
+.fil-ariane{font-size:0.9em}
+.fil-ariane,.fil-ariane a{color:#757575}
+
+/*************
+FORMULAIRE
+*************/
+.bloc_pret .titre{text-align:center;font-size:1.4em}
+.input-group .help-block{ }
+.input-group.has-error .help-block.form-error{display:block; position: absolute;min-width:300px; margin-top:-2em;margin-left:1em}
+#email2{display:none}
+legend{text-align:center;margin:0 0 .5em; border-width:0;}
+.control-label{font-size:16px; text-transform:uppercase;}
+.radio input[type="radio"]{margin-left:0}
+.control-label i{font-weight:400;font-style:normal;font-size:0.9em;text-transform:none}
+fieldset{margin:0 0 2em}
+#profil {background-image:url("/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/fond-profil.png"); background-size: cover; }
+.meilleure-offre .h2{margin-top:0;font-size:1.2em;font-weight:700}
+.meilleure-offre .btn-block{text-align:left}
+
+.offres td,.offres th{background:#fff;vertical-align:middle !important;padding:0.3em 1em}
+.offres .meilleure-offre .prets1 td{padding:1em 1em}
+
+td.fleche-verte,td.fleche-taupe{color:#fff;text-align:left;width:160px;border:0}
+td.fleche-verte{background:#9AC732}
+td.fleche-taupe{background:#A19580}
+
+td.libelle, td.chiffre,td.numpret{border-left:1px solid #ddd}
+td.libelle,td.numpret{text-align:left}
+.comparer th{background:#A19580;color:#fff;border:0}
+.comparer th,.comparer td.chiffre{font-weight:400}
+.meilleure-offre td.chiffre{color:#d13369}
+
+	td.logo{width:130px}
+	.pret1 td.chiffre{width:110px}
+	.pret1 td.chiffre{width:140px}
+	td.numpret{width:75px}	
+	
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label { color:#9ac732;}
+input.form-control {padding-right:38px !important;}
+.has-success input.form-control {background:url("/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/check.png") no-repeat 97% center;}	
+.has-success .form-control {border-color: #9ac732;}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+    color: #e22222;
+}
+.has-error .form-control {border-color: #e22222;}
+
+
+/*pour masquer les boutons pour les champs numeric*/
+input[type='number'] {-moz-appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{-webkit-appearance: none; margin: 0;}
+
+.after-content .container{margin-top:1em}
+.patch{background:#a5c347;font-size:16px;margin-top:2em}
+.patch h3{color:#fff;font-size:16px;font-weight:bold}
+.patch  strong{color:#fff}
+.patch .information{width:71px;height:71px;background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/information-picto.png) no-repeat 50% 50%;float:left}
+.patch p{line-height:1.2em;margin-bottom:20px;}
+
+@media (max-width:992px){
+	h1{word-wrap:break-word; font-size: 1.3em; margin: 1.2em 0;}
+	.temoignages .entete{background-image:none}
+	.navbar {min-height:0}
+	#header{padding-left:0}
+	.row{margin:0;}
+	.col-md-6 { margin-bottom: 1em; padding:0}
+	#baseline{font-size:1.1em;}
+	.groupe-assu{padding:0.5em;text-align:center}
+	footer>div>div{margin:0 0 1em}
+	#zone-bouton{margin:1em 0}
+	#zone-bouton>div{text-align:center}
+	#zone-bouton .devis2min{margin:1em auto}
+	.contact-texte .row>div{text-align:center}
+	
+	article p, .bloc-content li{line-height:1.9em; font-size:16px;}
+	
+	.table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td{
+		white-space:normal
+}
+
+	.table-responsive{overflow: auto;overflow-x:auto;overflow-y:auto;-webkit-overflow-scrolling: touch}
+	.table-responsive .img-responsive{width:100%;}
+	td.fleche-verte,td.fleche-taupe{width:100px;}
+	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{padding:2px;}
+	.main .bloc-content.comparer .container, .main .bloc-content.meilleure-offre .container{margin: 0 0.4em; padding: 0.5em 0;}
+	.comparer{font-size:0.8em;}
+	/*retrait colonne contact sous mobile */
+	.table-responsive .last{display:none;}
+  	/*scroll sous mobile*/
+	.table-responsive::-webkit-scrollbar { width: 12px;}
+	.table-responsive::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 		border-radius: 10px;}
+	.table-responsive::-webkit-scrollbar-thumb {border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); }
+	
+	.patch{padding:10px 5px;margin:15px}
+	.patch .information{margin:15px 3px 50px 0}
+  
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px){
+	.container{width:960px}
+	.entete,.entete h1{height:120px;line-height:120px;vertical-align:middle;margin:0}
+	.h1-2lignes .entete h1{line-height:1.5em;margin-top:1em;height:auto}
+	#baseline{line-height:75px;height:75px}
+	.groupe-assu{padding:2em 3em;margin:-4.5em 2.5em 0 -2.5em}
+
+	/*Menu*/
+	#mainmenu .item1468 a:before{margin:0.95em -1.7em 0 1.7em}
+	.item1468 a{width:180px;padding:0.3em 0 !important}
+
+	/*hp*/
+	.home .main{background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/bg-home.jpg) no-repeat center 0; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
+	background-size: cover; /* version standardisée */}
+	.home .main .container{padding:0 2em}
+	.home h1{margin:2.5em 0 1em;font-size:2em}
+	#zone-bouton{margin:0 0 4em}
+	#zone-bouton .text-right{margin-top:8px}
+	#hp-content{margin:3em 0 6em}
+	#hp-content>div{padding-left:5px;padding-right:5px}
+	#hp-content>div>div{height:555px}
+	
+	/*fil ariane*/
+	.fil-ariane{position:absolute;width:100%;top:120px}
+	.fil-ariane .container{padding:0.5em 2em}
+	.main .bloc-content .container{padding:3.5em 2em}
+	
+	/*qsn*/
+	.cartouche{margin:2em 8em 0}
+	.cartouche .right{border-left:1px solid #252525}
+	.cartouche>div{display:table-cell;vertical-align:middle;float:none}
+
+	.texte-partenaire{margin:0.5em -0.5em}
+	.texte-partenaire>div{height:250px;display:table-cell; vertical-align:middle;float:none/*140px*/}
+	.texte-partenaire .col-md-4{border-right:1px solid #a0db34;width:140px}
+	.texte-partenaire .col-md-4 img{width:140px}
+	#nos-partenaires .container{padding-top:0}
+
+	/*delegation*/
+	.delegation .content2{background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/bg-delegation-content2.jpg) no-repeat center right;color:#fff}
+	.delegation .content2 .container{background:none}
+	.infographie{margin-top:6em}
+	
+	/*contact*/
+	.contact-texte{width:670px;margin: 0 auto}
+	.contact-texte .row>div{height:80px}
+	.contact-texte .row .col-md-3{border-right:1px solid #a0a0a0}
+	
+	.erreur-404 .btn-info{width:290px;text-align:left}
+	
+	/*devis formulaire*/
+	.formulaire .lead {line-height:65px}
+	.patch {margin-left:21%;width:52.5%;padding:.3em}
+	.patch .information{margin:20px 30px 0 20px}
+		
+	/*devis resultats*/
+	.meilleure-offre .h2{line-height:1.5em}
+	.meilleure-offre.bloc-content{background:url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/bg-meilleure-offre.png) no-repeat top center; background-size: cover;}
+	.meilleure-offre.bloc-content .container{background:none}
+	td.fleche-verte,td.fleche-taupe{/*height:170px;*/padding-right:30px;font-size: 1.1em}
+	td.fleche-verte{background:#fff url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/fleche-verte.png) right center no-repeat}
+	td.fleche-taupe{background:#fff url(/web/20201013154821im_/http://www.lassureur-credit.com/templates/accueil/images/fleche-taupe.png) right center no-repeat}
+	
+	/*guides*/
+	/*
+	.item-page.guides .bloc-content .container{padding-right:230px}
+	*/
+	
+	#col-right{}
+}
+
+/***************
+IE
+****************/
+.lt-ie9 .table-responsive{overflow:hidden}
+.lt-ie8 .col-md-5{width:38%}
+.lt-ie8 .col-md-4{width:28%}
+.lt-ie8 .col-md-3{width:21%}
+.lt-ie8 .groupe-assu{padding:2em 0 2em 2em}
+.lt-ie8 .col-md-6{width:47%}
+.lt-ie8 .col-md-8{width:63%}
+.lt-ie8 .row,.lt-ie8 .form-group{clear:both}
+.lt-ie8 .control-label{display:block}
+/*
+     FILE ARCHIVED ON 15:48:21 Oct 13, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:19:28 Jul 12, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  cdx.remote: 0.098
+  LoadShardBlock: 75.891 (3)
+  exclusion.robots: 0.191
+  exclusion.robots.policy: 0.178
+  captures_list: 181.318
+  esindex: 0.015
+  CDXLines.iter: 24.954 (3)
+  load_resource: 121.131
+  PetaboxLoader3.datanode: 93.171 (4)
+  PetaboxLoader3.resolve: 36.851
+*/
