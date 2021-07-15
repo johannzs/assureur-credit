@@ -53,28 +53,28 @@ h1{color:#fff;text-transform:uppercase;font-size:1.75em;font-weight:700}
 h1:after{width:20px;height:20px;display:inline-block;content:' ';background:url(/assets/icone-sprite.png) no-repeat 0 -66px;vertical-align:center;margin-left:0.4em}
 .home h1:after{display:none}
 
-.qsn .entete{background-image:url(/assets/entetes/fond-h1-qsn.jpg); 
+.qsn .entete{background-image:url(/assets/fond-h1-qsn.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.devis .entete{background-image:url(/assets/entetes/fond-h1-devis.jpg); 
+.devis .entete{background-image:url(/assets/fond-h1-devis.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.devis.offres .entete{background-image:url(/assets/entetes/fond-h1-devis-offres.jpg); 
+.devis.offres .entete{background-image:url(/assets/fond-h1-devis-offres.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.temoignages .entete{background-image:url(/assets/entetes/fond-h1-temoignages.jpg); 
+.temoignages .entete{background-image:url(/assets/fond-h1-temoignages.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.delegation .entete{background-image:url(/assets/entetes/fond-h1-delegation.jpg); 
+.delegation .entete{background-image:url(/assets/fond-h1-delegation.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.guides .entete{background-image:url(/assets/entetes/fond-h1-guides.jpg); 
+.guides .entete{background-image:url(/assets/fond-h1-guides.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.erreur-404 .entete{background-image:url(/assets/entetes/fond-h1-404.jpg); 
+.erreur-404 .entete{background-image:url(/assets/fond-h1-404.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
-.contact .entete{background-image:url(/assets/entetes/fond-h1-404.jpg); 
+.contact .entete{background-image:url(/assets/fond-h1-404.jpg); 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */   
 	background-size: cover; /* version standardisée */}
 
